@@ -48,12 +48,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-cog"></i> <span>Skills</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="index.html#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#skills" class="nav-link scrollto"><i class="bx bx-cog"></i> <span>Skills</span></a></li>
+          <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -77,54 +77,101 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-coffee_sale_1.jpg" alt="">
+      <!-- ======= First Project ======= -->
+        <section id="portfolio-details" class="portfolio-details">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-8">
+                <div class="portfolio-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/web_library_homepage.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/web_library_profile.JPG" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/web_library_login.JPG" alt="">
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
                 </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-coffee_sale_2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-coffee_sale_3.jpg" alt="">
-                </div>
-
               </div>
-              <div class="swiper-pagination"></div>
+
+              <div class="col-lg-4">
+                <div class="portfolio-info">
+                  <h3>Project information</h3>
+                  <ul>
+                    <li><strong>Project Name</strong>: Totoro Library</li>
+                    <li><strong>Category</strong>: Web Project</li>
+                    <li><strong>Language</strong>: JavaScript, HTML</li>
+                    <li><strong>Project date</strong>: May, 2023</li>
+                    <li><strong>Project URL</strong>: <a href="https://totoro-library.cyclic.app/">Library</a></li>
+                  </ul>
+                </div>
+                <div class="portfolio-description">
+                  <h2>Project Description</h2>
+                  <p>
+                    Designing and building a sample of library where users can login and borrow books. Users' login 
+                    info and book collection are stored in MongoDB database. 
+                    **default testing account: 0000
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+    
+    <!-- ======= Second Project ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/web_sharing_videos_homepage.JPG" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/web_sharing_videos_detail.JPG" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/web_sharing_videos_admin.JPG" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info">
+                <h3>Project information</h3>
+                <ul>
+                  <li><strong>Project Name</strong>: Video Channels</li>
+                  <li><strong>Category</strong>: Web Project</li>
+                  <li><strong>Language</strong>: JavaScript, HTML</li>
+                  <li><strong>Project date</strong>: Dec, 2022</li>
+                  <li><strong>Project URL</strong>: <a href="https://sharing-videos.cyclic.app/admin">Video Channels</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description">
+                <h2>Project Description</h2>
+                <p>
+                  Building a Video Channels similar to Youtube, where users can watch 
+                  the videos and share their comments on each vid. Videos' collection 
+                  is stored in MongoDB database. 
+                </p>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: C Project</li>
-                <li><strong>Language</strong>: C</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/thy-nguyen29/C-Projects">GitHub</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>Project Description</h2>
-              <p>
-               (Under construction)
-              </p>
-            </div>
-          </div>
-
         </div>
-
-      </div>
-    </section><!-- End Portfolio Details Section -->
+      </section>
+    
+    
+    <!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
