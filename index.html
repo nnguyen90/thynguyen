@@ -41,7 +41,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid ">
         <h1 class="text-light"><a href="index.html">Thy Nguyen</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://github.com/thy-nguyen29/" class="github"><i class="bx bxl-github"></i></a>
@@ -279,27 +279,40 @@
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Advanced Diploma of Computer Programming &amp; Analysis</h4>
-              <h5>2022 - 2024</h5>
+              <h5>May 2022 - May 2025</h5>
               <p><em>Seneca College, Scarborough, ON</em></p>
-              <p>Overall GPA: 3.7/4.0</p>
+              <p>Overall GPA: 3.8/4.0</p>
             </div>
             <div class="resume-item">
               <h4>Diploma of Electrical Engineering Technician</h4>
-              <h5>2017 - 2018</h5>
+              <h5>Jan 2017 - May 2018</h5>
               <p><em>Centennial College, Scarborough, ON</em></p>
               <p>Overall GPA: 4.4/4.5</p>
             </div>
-            <div class="resume-item">
+            <!-- <div class="resume-item">
               <h4>Bachelor of Business Management & Strategy</h4>
               <h5>2008 - 2012</h5>
               <p><em>University of Gloucestershire, Vietnam</em></p>
-            </div>
+            </div> -->
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Professional Experience</h3>
+             <div class="resume-item">
+              <h4>Application Developer</h4>
+              <h5>Sep 2023 - Sep 2024</h5>
+              <p><em>Ontario Public Service, Toronto, ON</em></p>
+              <ul>
+                <li>Designed, developed, and maintained web and mobile applications to support government services, improving efficiency and user accessibility.</li>
+                <li>Collaborated with cross-functional teams to gather requirements, analyze business needs, and implement technical solutions that met compliance and security standards. </li>
+                <li>Developed and optimized RESTful APIs, database queries, and reusable components, ensuring scalability and high performance across applications. </li>
+                <li>Applied Agile methodologies to deliver iterative updates, track progress, and respond quickly to evolving stakeholder needs.</li>
+                <li>Implemented testing, debugging, and quality assurance practices to ensure reliable deployment and minimize system downtime.</li>
+                <li>Provided technical support and documentation to facilitate knowledge transfer and long-term sustainability of applications.</li>
+              </ul>
+            </div>
             <div class="resume-item">
               <h4>R&D Staff</h4>
-              <h5>2021 - Present</h5>
+              <h5>Nov 2021 - Aug 2023</h5>
               <p><em>Renaissance Flavors International, Scarborough, ON</em></p>
               <ul>
                 <li>Develop and optimize novel chemical formulations for applications in diverse sectors, such as food, e-cigarettes, supplements, and protein powders.</li>
@@ -310,7 +323,7 @@
             </div>
             <div class="resume-item">
               <h4>Lead Tech</h4>
-              <h5>2018 - 2021</h5>
+              <h5>Aug 2018 - Oct 2021</h5>
               <p><em>Canada Vape Lab, Markham, ON</em></p>
               <ul>
                 <li>Maintained laboratory equipment and materials by implementing thorough cleaning and sterilization procedures and ensuring proper disposal of hazardous waste. </li>
@@ -418,7 +431,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formsubmit.co/nguyen.thy2986@gmail.com" method="post" role="form" class="php-email-form">
+            <form action="./forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -439,10 +452,10 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                <div class="error-message" style="display: none"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit" [disabled]="contactForm.invalid">Send Message</button></div>
+              <div class="text-center"><button type="submit" >Send Message</button></div>
             </form>
           </div>
 
