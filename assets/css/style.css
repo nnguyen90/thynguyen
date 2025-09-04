@@ -78,7 +78,11 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
+<<<<<<< HEAD
   width: 170px;
+=======
+  width: 170px; 
+>>>>>>> 75262f9958c4dc26fd8dfe854dbf4e571666ae6a
   border-radius: 10px;
   border: 8px solid #2c2f3f;
 }
